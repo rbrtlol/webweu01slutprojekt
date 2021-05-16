@@ -1,0 +1,132 @@
+div {
+  font-family: "Roboto"
+}
+
+body {
+  margin: 0;
+  background-image: url('../bilder/pattern.jpg');
+}
+
+.header {
+  margin-left: 15px;
+  color: white;
+}
+
+.whole {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  overflow: hidden;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  background-color: #800000;
+}
+
+.mainmenu-whole {
+  overflow: hidden;
+  width: 100%;
+  background-color: #800000;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.mainmenu {
+  overflow: hidden;
+  background-color: #b66262;
+}
+
+.mainmenu a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+.mainmenu .sokruta {
+  float: right;
+}
+
+.mainmenu input[type=text] {
+  padding: 6px;
+  margin-top: 7px;
+  font-size: 17px;
+  border: none;
+}
+
+.mainmenu .sokruta button {
+  float: right;
+  padding: 6px;
+  margin-right: 7px;
+  margin-top: 7px;
+  background: rgb(255, 204, 204);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#current {
+  background-color: rgb(255,  204,  204);
+  color: #333;
+}
+
+.mainmenu a:hover {
+  animation-name: gradienthover;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+.contentframe {
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@keyframes gradienthover {
+  100% {
+  background-color: rgb(255,  204,  204);
+  color: black;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .whole {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainmenu .sokruta {
+  float: none;
+}
+
+.mainmenu .sokruta button {
+  background-color: #b66262;
+}
+
+.mainmenu a,  .mainmenu input[type=text],  .mainmenu .sokruta button {
+  float: none;
+  margin: 0;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 14px;
+  }
+
+}
+
