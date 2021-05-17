@@ -110,10 +110,7 @@ body {
   }
 }
 
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
+@media screen and (max-width: 600px) {
   .mainmenu .sokruta {
   float: none;
 }
