@@ -1,13 +1,1 @@
-form input {
-    width: 300px;
-    border-radius: 5px;
-    font-family: 'Roboto', arial; 
-}
-
-
-textarea {
-  width: 300px;
-  height: 100px;
-  border-radius: 5px;
-  font-family: 'Roboto', arial;
-}
+form input{width:300px;border-radius:5px;font-family:Roboto,arial}textarea{width:300px;height:100px;border-radius:5px;font-family:Roboto,arial}
